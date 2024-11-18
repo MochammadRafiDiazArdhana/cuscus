@@ -1,0 +1,681 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: orange;
+}
+.wrapper{
+    min-width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	height: 50px;
+    background-color: white;
+    overflow: hidden;
+	margin-bottom: 10px;
+	padding: 10px 25px 15px 20px;
+}
+#logo{
+	text-decoration: none;
+	float: left;
+	font-family: Brush Script MT;
+	color: orange;
+    font-size: 30px;
+}
+#menu{
+	float: right;
+	list-style: none;
+	margin-top: 5px;
+}
+#menu li{
+	font-size: 20px;
+	display: inline;
+}
+#menu li a{
+	color: orange;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+#profil{
+	float: right;
+	list-style: none;
+	margin-top: 0px;
+}
+#profil img{
+	padding: 0px 7px;
+	height: 30px;
+	width: 45px;
+	border-radius: 20px;
+}
+#cari {
+	float: right;
+	list-style: none;
+	margin-top: 0px;
+}
+#cari input{
+	padding: 0px 7px;
+	height: 30px;
+	width: 180px;
+	border-radius: 10px;
+}
+#anjay{
+	position: absolute;
+	left: 1310px;
+	width: 200px;
+	height: 50px;
+	border: 3px solid white;
+	border-radius: 20px;
+	top: 70px;
+	background: orange;
+}
+#bulat{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 1320px;
+	top : 85px;
+	border-radius: 12px;
+	background: white;
+}
+#name{
+	position: absolute;
+	font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+	left : 1350px;
+	top : 78px;
+	font-size: 25px;
+	color: white;
+}
+#allpost{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Sans";
+	top : 70px;
+	left : 100px;
+	color: white;
+}
+#garis4{
+	position: absolute;
+	top: 80px;
+	left: 155px;
+	transform: rotate(90deg);
+}
+#pedas{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Sans";
+	top : 70px;
+	left : 200px;
+	color: white;
+}
+#garis5{
+	position: absolute;
+	top: 80px;
+	left: 240px;
+	transform: rotate(90deg);
+}
+#gurih{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Sans";
+	top : 70px;
+	left : 285px;
+	color: white;
+}
+#garis6{
+	position: absolute;
+	top: 80px;
+	left: 325px;
+	transform: rotate(90deg);
+}
+#manis{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Sans";
+	top : 70px;
+	left : 370px;
+	color: white;
+}
+#garis7{
+	position: absolute;
+	top: 80px;
+	left: 415px;
+	transform: rotate(90deg);
+}
+#tradisional{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Sans";
+	top : 70px;
+	left : 460px;
+	color: white;
+}
+#garis8{
+	position: absolute;
+	top: 80px;
+	left: 548px;
+	transform: rotate(90deg);
+}
+#internasional{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Sans";
+	top : 70px;
+	left : 593px;
+	color: white;
+}
+#garis9{
+	position: absolute;
+	top: 80px;
+	left: 697px;
+	transform: rotate(90deg);
+}
+#waffle{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 390px;
+	top: 150px;
+}
+#profil2{
+	position: absolute;
+	top: 390px;
+	left: 400px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+#nama1{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 400px;
+	left: 450px;
+	color: white;
+}	
+#judul1{
+	font-size: 23px;
+	position: absolute;
+	top: 450px;
+	left: 420px;
+	color: white;
+}
+#text1{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 490px;
+	left: 410px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis10{
+	position: absolute;
+	top: 623px;
+	left: 400px;
+}
+#salad{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 770px;
+	top: 263px;
+}
+#profil3{
+	position: absolute;
+	top: 503px;
+	left: 780px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}	
+#nama2{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 513px;
+	left: 830px;
+	color: white;
+	}
+#judul2{
+	font-size: 23px;
+	position: absolute;
+	top: 563px;
+	left: 810px;
+	color: white;
+}
+#text2{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 603px;
+	left: 800px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis11{
+	position: absolute;
+	top: 736px;
+	left: 790px;
+}
+#pancake{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 390px;
+	top: 693px;
+}
+#profil4{
+	position: absolute;
+	top: 933px;
+	left: 400px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+#nama3{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 943px;
+	left: 450px;
+	color: white;
+}	
+#judul3{
+	font-size: 23px;
+	position: absolute;
+	top: 993px;
+	left: 420px;
+	color: white;
+}
+#text3{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 1033px;
+	left: 410px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis12{
+	position: absolute;
+	top: 1166px;
+	left: 400px;
+}
+#milkshakesb{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 770px;
+	top: 806px;
+}
+#profil5{
+	position: absolute;
+	top: 1046px;
+	left: 780px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}	
+#nama4{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 1056px;
+	left: 830px;
+	color: white;
+	}
+#judul4{
+	font-size: 23px;
+	position: absolute;
+	top: 1106px;
+	left: 800px;
+	color: white;
+}
+#text4{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 1146px;
+	left: 790px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis13{
+	position: absolute;
+	top: 1279px;
+	left: 790px;
+}
+#pho{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 390px;
+	top: 1236px;
+}
+#profil6{
+	position: absolute;
+	top: 1476px;
+	left: 400px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+#nama5{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 1486px;
+	left: 450px;
+	color: white;
+}	
+#judul5{
+	font-size: 23px;
+	position: absolute;
+	top: 1536px;
+	left: 420px;
+	color: white;
+}
+#text5{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 1576px;
+	left: 410px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis14{
+	position: absolute;
+	top: 1709px;
+	left: 400px;
+}
+#jjampong{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 770px;
+	top: 1349px;
+}
+#profil7{
+	position: absolute;
+	top: 1589px;
+	left: 780px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}	
+#nama6{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 1599px;
+	left: 830px;
+	color: white;
+	}
+#judul6{
+	font-size: 23px;
+	position: absolute;
+	top: 1649px;
+	left: 800px;
+	color: white;
+}
+#text6{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 1689px;
+	left: 790px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis15{
+	position: absolute;
+	top: 1822px;
+	left: 790px;
+}
+#sambelbwng{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 390px;
+	top: 1779px;
+}
+#profil8{
+	position: absolute;
+	top: 2019px;
+	left: 400px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+#nama7{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 2029px;
+	left: 450px;
+	color: white;
+}	
+#judul7{
+	font-size: 23px;
+	position: absolute;
+	top: 2079px;
+	left: 420px;
+	color: white;
+}
+#text7{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 2119px;
+	left: 410px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis16{
+	position: absolute;
+	top: 2252px;
+	left: 400px;
+}
+#Ramen{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 770px;
+	top: 1892px;
+}
+#profil9{
+	position: absolute;
+	top: 2132px;
+	left: 780px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}	
+#nama8{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 2142px;
+	left: 830px;
+	color: white;
+	}
+#judul8{
+	font-size: 23px;
+	position: absolute;
+	top: 2192px;
+	left: 800px;
+	color: white;
+}
+#text8{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 2232px;
+	left: 790px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis17{
+	position: absolute;
+	top: 2365px;
+	left: 790px;
+}
+#urap{
+	position: absolute;
+	width: 355px;
+	height: 225px;
+	left: 390px;
+	top: 2322px;
+}
+#profil10{
+	position: absolute;
+	top: 2562px;
+	left: 400px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+#nama9{
+	text-decoration: none;
+	position: absolute;
+	font-size: 18px;
+	top: 2572px;
+	left: 450px;
+	color: white;
+}	
+#judul9{
+	font-size: 23px;
+	position: absolute;
+	top: 2622px;
+	left: 420px;
+	color: white;
+}
+#text9{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 16px;
+	top : 2662px;
+	left: 410px;
+	width: 332px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color : white;
+}
+#garis18{
+	position: absolute;
+	top: 2795px;
+	left: 400px;
+}
+footer{
+    position: absolute;
+    top: 2990px;
+    left: 0;
+    right: 0;
+    background: white;
+    height: auto;
+    width: 1519px;
+    font-family: "Open Sans";
+    padding-top: 20px;
+    color: #000;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+	width: 215px;;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: orange;
+}
+.footer-bottom{
+    background: white;
+    width: 1519px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

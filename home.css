@@ -1,0 +1,673 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: orange;
+	}
+	
+.wrapper{
+    min-width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	height: 50px;
+    background-color: white;
+    overflow: hidden;
+	margin-bottom: 10px;
+	padding: 10px 25px 15px 20px;
+}
+#logo{
+	text-decoration: none;
+	float: left;
+	font-family: Brush Script MT;
+	color: orange;
+    font-size: 30px;
+}
+#menu{
+	float: right;
+	list-style: none;
+	margin-top: 5px;
+}
+#menu li{
+	font-size: 20px;
+	display: inline;
+}
+#menu li a{
+	color: orange;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+#profil{
+	float: right;
+	list-style: none;
+	margin-top: 0px;
+}
+#profil img{
+	padding: 0px 7px;
+	height: 30px;
+	width: 45px;
+	border-radius: 20px;
+}
+#cari {
+	float: right;
+	list-style: none;
+	margin-top: 0px;
+}
+#cari input{
+	padding: 0px 7px;
+	height: 30px;
+	width: 180px;
+	border-radius: 10px;
+}
+#kotak1{
+	width: 1375px;
+	height: 180px;
+	left: 80px;
+	top: 100px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+#k1{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}	
+#k2{
+	position: absolute;
+	top: 135px;
+	left: 110px;
+}
+#k3{
+	font-size: 15px;
+	position: absolute;
+	top: 180px;
+	left: 100px;
+	}
+	
+	#k4{
+	font-size: 15px;
+	position: absolute;
+	top: 205px;
+	left: 120px;
+	}
+	
+	#k5{
+	font-family: Brush Script MT;
+	font-size:50px;
+	color: orange;
+	position: absolute;
+	left:1160px;
+	top: 160px;
+	transform: rotate(340deg);
+	}
+	
+	#kotak2{
+	width: 305px;
+	height: 520px;
+	left: 230px;
+	top: 350px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#waffle{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 231px;
+	top: 351px;
+	}
+	
+	#profil2{
+	position: absolute;
+	top: 576px;
+	left: 260px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama1{
+	text-decoration: none;
+	position: absolute;
+	top: 586px;
+	left: 310px;
+	}
+	
+	#judul1{
+	font-size: 22px;
+	position: absolute;
+	top: 636px;
+	left: 260px;
+	}
+
+	#text1{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 671px;
+	left: 250px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+	
+	#kotak3{
+	width: 305px;
+	height: 520px;
+	left: 615px;
+	top: 350px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#salad{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 616px;
+	top: 351px;
+	}
+	
+	#profil3{
+	position: absolute;
+	top: 576px;
+	left: 645px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama2{
+	text-decoration: none;
+	position: absolute;
+	top: 586px;
+	left: 695px;
+	}
+	
+	#judul2{
+	font-size: 22px;
+	position: absolute;
+	top: 636px;
+	left: 645px;
+	}
+
+	#text2{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 671px;
+	left: 635px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+
+	#kotak4{
+	width: 305px;
+	height: 520px;
+	left: 1000px;
+	top: 350px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#pancake{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 1001px;
+	top: 351px;
+	}
+	
+	#profil4{
+	position: absolute;
+	top: 576px;
+	left: 1030px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama3{
+	text-decoration: none;
+	position: absolute;
+	top: 586px;
+	left: 1080px;
+	}
+	
+	#judul3{
+	font-size: 22px;
+	position: absolute;
+	top: 636px;
+	left: 1030px;
+	}
+
+	#text3{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 671px;
+	left: 1020px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+	
+	#kotak5{
+	width: 305px;
+	height: 520px;
+	left: 230px;
+	top: 940px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#milkshakesb{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 231px;
+	top: 941px;
+	}
+	
+	#profil5{
+	position: absolute;
+	top: 1166px;
+	left: 260px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama4{
+	text-decoration: none;
+	position: absolute;
+	top: 1176px;
+	left: 310px;
+	}
+	
+	#judul4{
+	font-size: 22px;
+	position: absolute;
+	top: 1226px;
+	left: 260px;
+	}
+
+	#text4{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 1261px;
+	left: 250px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+	
+	#kotak6{
+	width: 305px;
+	height: 520px;
+	left: 615px;
+	top: 940px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#pho{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 616px;
+	top: 941px;
+	}
+	
+	#profil6{
+	position: absolute;
+	top: 1166px;
+	left: 645px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama5{
+	text-decoration: none;
+	position: absolute;
+	top: 1176px;
+	left: 695px;
+	}
+	
+	#judul5{
+	font-size: 22px;
+	position: absolute;
+	top: 1226px;
+	left: 645px;
+	}
+	
+	#text5{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 1261px;
+	left: 635px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+	
+	#kotak7{
+	width: 305px;
+	height: 520px;
+	left: 1000px;
+	top: 940px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#jjampong{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 1001px;
+	top: 941px;
+	}
+	
+	#profil7{
+	position: absolute;
+	top: 1166px;
+	left: 1030px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama6{
+	text-decoration: none;
+	position: absolute;
+	top: 1176px;
+	left: 1080px;
+	}
+	
+	#judul6{
+	font-size: 22px;
+	position: absolute;
+	top: 1226px;
+	left: 1030px;
+	}
+
+	#text6{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 1261px;
+	left: 1020px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+	
+	#kotak8{
+	width: 305px;
+	height: 520px;
+	left: 230px;
+	top: 1530px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#sambelbwng{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 231px;
+	top: 1531px;
+	}
+	
+	#profil8{
+	position: absolute;
+	top: 1756px;
+	left: 260px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama7{
+	text-decoration: none;
+	position: absolute;
+	top: 1766px;
+	left: 310px;
+	}
+	
+	#judul7{
+	font-size: 22px;
+	position: absolute;
+	top: 1816px;
+	left: 260px;
+	}
+	
+	#text7{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 1851px;
+	left: 250px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+
+	#kotak9{
+	width: 305px;
+	height: 520px;
+	left: 615px;
+	top: 1530px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#Ramen{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 616px;
+	top: 1530px;
+	}
+	
+	#profil9{
+	position: absolute;
+	top: 1756px;
+	left: 645px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama8{
+	text-decoration: none;
+	position: absolute;
+	top: 1766px;
+	left: 695px;
+	}
+	
+	#judul8{
+	font-size: 22px;
+	position: absolute;
+	top: 1816px;
+	left: 645px;
+	}
+
+	#text8{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 1851px;
+	left: 635px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color :black;
+	}
+	
+	#kotak10{
+	width: 305px;
+	height: 520px;
+	left: 1000px;
+	top: 1530px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+	}
+	
+	#urap{
+	position: absolute;
+	width: 305px;
+	height: 200px;
+	left: 1001px;
+	top: 1531px;
+	}
+	
+	#profil10{
+	position: absolute;
+	top: 1756px;
+	left: 1030px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	}
+	
+	#nama9{
+	text-decoration: none;
+	position: absolute;
+	top: 1766px;
+	left: 1080px;
+	}
+	
+	#judul9{
+	font-size: 22px;
+	position: absolute;
+	top: 1816px;
+	left: 1030px;
+	}
+
+	#text9{
+	text-decoration: none;
+	position: absolute;
+	font-family: "Sans";
+	font-size: 14px;
+	top : 1851px;
+	left: 1020px;
+	width: 270px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	color : black;
+	}
+
+	footer{
+    position: absolute;
+    top: 2200;
+    left: -20;
+    right: 0;
+    background: white;
+    height: auto;
+    width: 1539;
+    font-family: "Open Sans";
+    padding-top: 20px;
+    color: #000;
+	}
+	.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+	}
+	.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+	}
+	.socials{
+    list-style: none;
+    display: flex;
+	width: 215px;;
+    margin: 1rem 0 3rem 0;
+	}
+	.socials li{
+    margin: 0 10px;
+	}
+	.socials a{
+    text-decoration: none;
+    color: black;
+	}
+	.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+	}
+	.socials a:hover i{
+    color: orange;
+	}
+	.footer-bottom{
+    background: white;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+	}
+	.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+	}
+	
+	.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    }
